@@ -1,9 +1,10 @@
 package edu.nasredine.cheniki.fragments;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

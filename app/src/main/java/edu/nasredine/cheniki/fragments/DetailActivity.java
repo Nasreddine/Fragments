@@ -1,10 +1,11 @@
 package edu.nasredine.cheniki.fragments;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class DetailActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

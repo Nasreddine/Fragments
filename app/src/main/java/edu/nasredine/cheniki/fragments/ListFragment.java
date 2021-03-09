@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ListFragment extends android.app.ListFragment {
+public class ListFragment extends androidx.fragment.app.ListFragment {
 
     private ArrayList<String> planetes;
 
